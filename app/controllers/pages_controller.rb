@@ -1,11 +1,9 @@
 class PagesController < ApplicationController
   def home
-  end
-<<<<<<< HEAD
     @posts = Blog.all
-=======
-
->>>>>>> 925bf172189cd57262076df337d3fffcf20c5802
+    @skills = Skill.all
+  end
+    
   def about
   end
 
