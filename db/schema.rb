@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_01_29_070751) do
+ActiveRecord::Schema.define(version: 2019_02_06_093920) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -20,6 +20,22 @@ ActiveRecord::Schema.define(version: 2019_01_29_070751) do
     t.text "body"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "slug"
+    t.integer "status", default: 0
+    t.bigint "topic_id"
+    t.index ["slug"], name: "index_blogs_on_slug", unique: true
+    t.index ["topic_id"], name: "index_blogs_on_topic_id"
+  end
+
+  create_table "friendly_id_slugs", force: :cascade do |t|
+    t.string "slug", null: false
+    t.integer "sluggable_id", null: false
+    t.string "sluggable_type", limit: 50
+    t.string "scope"
+    t.datetime "created_at"
+    t.index ["slug", "sluggable_type", "scope"], name: "index_friendly_id_slugs_on_slug_and_sluggable_type_and_scope", unique: true
+    t.index ["slug", "sluggable_type"], name: "index_friendly_id_slugs_on_slug_and_sluggable_type"
+    t.index ["sluggable_type", "sluggable_id"], name: "index_friendly_id_slugs_on_sluggable_type_and_sluggable_id"
   end
 
   create_table "portfolios", force: :cascade do |t|
@@ -37,6 +53,23 @@ ActiveRecord::Schema.define(version: 2019_01_29_070751) do
     t.integer "percent_utilized"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.text "badge"
   end
 
+  create_table "technologies", force: :cascade do |t|
+    t.string "name"
+    t.bigint "portfolio_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["portfolio_id"], name: "index_technologies_on_portfolio_id"
+  end
+
+  create_table "topics", force: :cascade do |t|
+    t.string "title"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_foreign_key "blogs", "topics"
+  add_foreign_key "technologies", "portfolios"
 end
