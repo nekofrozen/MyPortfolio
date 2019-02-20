@@ -50,6 +50,7 @@
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.12.2, RVM: ruby-2.6.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.1.4, RVM: ruby-2.6.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.4, RVM: ruby-2.6.0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="devcamp_view_tool (v0.1.0@e77443, RVM: ruby-2.6.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="devise (v4.6.1, RVM: ruby-2.6.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.8.0, RVM: ruby-2.6.0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.7.0, RVM: ruby-2.6.0) [gem]" level="application" />
