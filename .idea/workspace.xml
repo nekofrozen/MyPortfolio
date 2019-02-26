@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e67d2138-7fe6-4e9f-90c3-a61a1acbdf8a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/blogs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/blogs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/blogs/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/blogs/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shared/_blog_nav.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/blog.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/blog.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -95,11 +95,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/blog.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-509">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            <state relative-caret-position="145">
+              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/shared/_blog_nav.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -119,7 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/models/skill.rb" />
         <option value="$PROJECT_DIR$/app/models/portfolio.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
@@ -170,6 +178,7 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/blogs.scss" />
         <option value="$PROJECT_DIR$/app/views/blogs/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/blog.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_blog_nav.html.erb" />
       </list>
     </option>
   </component>
@@ -284,28 +293,6 @@
               <item name="MyPortfolio" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPortfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPortfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="devise" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPortfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPortfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="devise" type="462c0819:PsiDirectoryNode" />
-              <item name="registrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyPortfolio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyPortfolio" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyPortfolio" type="b2602c69:ProjectViewProjectNode" />
@@ -478,18 +465,18 @@
       <workItem from="1550720032134" duration="3725000" />
       <workItem from="1550802185996" duration="1808000" />
       <workItem from="1551061182671" duration="5045000" />
-      <workItem from="1551147970131" duration="3314000" />
+      <workItem from="1551147970131" duration="3633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95514000" />
+    <option name="totallyTimeSpent" value="95833000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="426" width="1280" height="374" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.105815835" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.15347335" />
       <window_info id="Structure" order="1" sideWeight="0.50162864" side_tool="true" weight="0.52593774" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -537,13 +524,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="54" column="9" selection-start-line="54" selection-start-column="6" selection-end-line="54" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -839,8 +819,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/blog.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-509">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        <state relative-caret-position="145">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_blog_nav.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
         </state>
       </provider>
     </entry>
