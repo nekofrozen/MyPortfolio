@@ -2,13 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e67d2138-7fe6-4e9f-90c3-a61a1acbdf8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/shared/_blog_sidebar.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/kaminari/_next_page.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/kaminari/_paginator.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/kaminari/_prev_page.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shared/_blog_footer.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/shared/_blog_masthead.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MyPortfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyPortfolio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/blogs/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/blogs/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/blogs/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/blogs/edit.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/blogs/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/blogs/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/blogs/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/blogs/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/blogs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/blogs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/blogs_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/blogs_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/blogs/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/blogs/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/blog.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/blog.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_blog_sidebar.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_blog_sidebar.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -46,64 +53,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/devise/passwords/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/devise/sessions/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/blogs/_blog.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/guest_user.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/blog.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="21" column="3" selection-start-line="21" selection-end-line="21" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/blogs.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="167" column="1" selection-start-line="167" selection-start-column="1" selection-end-line="167" selection-end-column="1" />
+            <state relative-caret-position="77">
+              <caret line="177" column="1" selection-start-line="177" selection-start-column="1" selection-end-line="177" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/blogs_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -111,8 +73,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/blogs/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/kaminari/_next_page.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/kaminari/_paginator.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/kaminari/_prev_page.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -120,15 +109,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/blog.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+            <state relative-caret-position="471">
+              <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/portfolio.rb">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/app/views/shared/_blog_footer.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/shared/_blog_masthead.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/shared/_blog_sidebar.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -146,11 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20190211165412_devise_create_users.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/concerns/devise_whitelist.rb" />
-        <option value="$PROJECT_DIR$/app/views/portfolios/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/concerns/set_source.rb" />
-        <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/controllers/concerns/default_page_content.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/config/initializers/assets.rb" />
@@ -163,9 +169,7 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/portfolios.scss" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/layouts/mailer.text.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/blogs_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/concerns/current_user_concern.rb" />
         <option value="$PROJECT_DIR$/app/controllers/portfolios_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/guest_user.rb" />
@@ -186,17 +190,24 @@
         <option value="$PROJECT_DIR$/app/views/devise/passwords/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/passwords/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/blogs.scss" />
         <option value="$PROJECT_DIR$/app/views/shared/_blog_nav.html.erb" />
         <option value="$PROJECT_DIR$/app/views/blogs/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/blogs/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/blogs/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/blogs/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/shared/_blog_sidebar.html.erb" />
         <option value="$PROJECT_DIR$/app/views/blogs/_blog.html.erb" />
         <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/blogs.scss" />
+        <option value="$PROJECT_DIR$/app/controllers/blogs_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/blogs/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/kaminari/_next_page.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/kaminari/_paginator.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/kaminari/_prev_page.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/blog.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_blog_footer.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_blog_masthead.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/shared/_blog_sidebar.html.erb" />
       </list>
     </option>
   </component>
@@ -311,6 +322,20 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="blogs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyPortfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyPortfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="kaminari" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyPortfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyPortfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -471,18 +496,19 @@
       <workItem from="1550720032134" duration="3725000" />
       <workItem from="1550802185996" duration="1808000" />
       <workItem from="1551061182671" duration="5045000" />
-      <workItem from="1551147970131" duration="9351000" />
+      <workItem from="1551147970131" duration="9642000" />
+      <workItem from="1551234370903" duration="2851000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101551000" />
+    <option name="totallyTimeSpent" value="104693000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="494" width="1280" height="306" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.15347335" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49837133" visible="true" weight="0.15105008" />
       <window_info id="Structure" order="1" sideWeight="0.50162864" side_tool="true" weight="0.52593774" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -530,40 +556,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/portfolio.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/technology.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/pages.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/portfolios.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/mailer.text.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/concerns/current_user_concern.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -731,20 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/blogs_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_blog_sidebar.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/blogs/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -760,9 +738,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/pages_helper.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/blogs_helper.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/blogs/show.html.erb">
@@ -803,18 +778,11 @@
     <entry file="file://$PROJECT_DIR$/app/views/devise/sessions/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/blog.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/portfolio.rb">
+    <entry file="file://$PROJECT_DIR$/app/helpers/blogs_helper.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/guest_user.rb">
@@ -824,38 +792,104 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/blog.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
+        <state relative-caret-position="315">
           <caret line="21" column="3" selection-start-line="21" selection-end-line="21" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/portfolio.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/blogs/_blog.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/blogs.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="167" column="1" selection-start-line="167" selection-start-column="1" selection-end-line="167" selection-end-column="1" />
+        <state relative-caret-position="77">
+          <caret line="177" column="1" selection-start-line="177" selection-start-column="1" selection-end-line="177" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/blogs_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/blogs/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/kaminari/_next_page.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/kaminari/_paginator.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/kaminari/_prev_page.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/blog.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="82" column="7" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
+        <state relative-caret-position="471">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/blogs/_blog.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_blog_footer.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="105">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_blog_masthead.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_blog_sidebar.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
