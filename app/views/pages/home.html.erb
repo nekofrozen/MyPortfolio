@@ -1,8 +1,9 @@
-<h1>Homepage, <%= current_user.first_name  %> </h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="inner cover">
+  <h1 class="cover-heading">Welcome.</h1>
+  <p class="lead">Software development should not be a secret process, when I take on a new project I make it my goal to not only deliver a well crafted product but to also ensure that each stage of the process is fully communicated.</p>
+  <p class="lead">
+    <%= link_to "About Me", about_me_path, class: "btn btn-lg btn-secondary" %>
+  </p>
+</div>
 
-<h1>Blog Posts</h1>
-<%= @posts.inspect %>
-
-<h1>Skills</h1>
-<%= @skills.inspect %>
+</div>
