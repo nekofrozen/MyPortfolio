@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e67d2138-7fe6-4e9f-90c3-a61a1acbdf8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/jobs/comment_broadcast_job.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/comment.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/comment.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/channels/application_cable/connection.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -78,7 +75,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -87,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/comments/_comment.html.erb">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/channels/application_cable/connection.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+            <state relative-caret-position="-49">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -154,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/views/shared/_blog_nav.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_portfolio_nav.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20190304022028_add_position_to_portfolio.rb" />
         <option value="$PROJECT_DIR$/db/schema.rb" />
@@ -205,6 +201,7 @@
         <option value="$PROJECT_DIR$/app/jobs/comment_broadcast_job.rb" />
         <option value="$PROJECT_DIR$/app/models/comment.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/channels/application_cable/connection.rb" />
       </list>
     </option>
   </component>
@@ -533,12 +530,12 @@
       <workItem from="1552271273864" duration="4875000" />
       <workItem from="1552358518585" duration="2823000" />
       <workItem from="1552448943921" duration="475000" />
-      <workItem from="1552530378948" duration="1839000" />
+      <workItem from="1552530378948" duration="2000000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148273000" />
+    <option name="totallyTimeSpent" value="148434000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="450" width="1280" height="350" extended-state="0" />
@@ -592,13 +589,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/portfolios_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1117">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/portfolio.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -890,6 +880,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/channels/application_cable/connection.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="7" />
         </state>
       </provider>
     </entry>
